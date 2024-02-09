@@ -1,0 +1,382 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@300;400;900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: black;
+}
+
+.main {
+    background-image: url(assets/img/IN-en-20240115-trifectadaily-perspective_alpha_website_small.jpg);
+    height: 110vh;
+    -ms-zoom: 20%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.box {
+    height: 110vh;
+    width: 100%;
+    opacity: 0.58;
+    position: absolute;
+    top: 0;
+    background-color: black;
+    
+}
+
+nav {
+    max-width: 80vw;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    height: 120px;
+
+}
+
+nav img {
+    color: red;
+    width: 200px;
+    position: relative;
+    z-index: 10;
+}
+
+.hero {
+    font-family: 'Martel Sans', sans-serif;
+    height: 80.5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    z-index: 10;
+    font-size: 60px;
+    font-weight: 900;
+    gap: 23px;
+    padding: 23px;
+    text-align: center;
+
+}
+.hero1{
+    font-weight: 400;
+    font-size: 28px;
+    text-align:center;
+}
+.hero2{
+    font-weight: 400;
+    font-size: 24px;
+    text-align:center;
+    gap: 23px;
+}
+.Seperation{
+    height: 9px;
+    background-color: rgb(42, 42, 42);
+    position: relative;
+    z-index: 10;
+    width: 100%;
+    display :flex;
+    
+    
+}
+
+
+.btn{
+    padding:8px 40px;
+    gap: 10px;
+    position: relative;
+    z-index: 10;
+    border-radius: 4px;
+    background-color: rgba(23,23,23,0.5);
+    color: white;
+    font-size: 20px;
+    align-content: center;
+    justify-content: center;
+    font-weight: lighter;
+    margin-right: 21px;
+   
+    
+    
+
+}
+.btn-red{
+    background-color: red;
+    color: white;
+    position: relative;
+    z-index: 10;
+    padding: 13px 50px;
+    font-size: 30px;
+    border-radius: 7px;
+    border: red;
+
+}
+.main input{
+    
+    font-size: 23px;
+    border-radius: 3px;
+    background-color: rgba(23,23,23,0.5);
+    border-color: gray;
+    color: white;
+    align-content: center;
+    justify-content: center;
+    gap: 17px;
+    padding-right:133px ;
+    padding-left: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+}
+.btn-red-sn{
+    background-color: red;
+    color: white;
+    border-radius: 4px;
+    padding: 7px 20px;
+    font-size: 17px;
+    border: red;
+    font-size: large;
+    
+}
+/*---------------features------------- */
+.features{
+    padding: 50px 0%                        ;
+    font-size: 35px;
+    color: white;
+}
+.row{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 50px 0px;
+   
+}
+
+.text-col{
+    display: flex;
+    flex-basis: 50%;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+    
+}
+.text-col h2{
+    padding-left: 169px;
+}
+.text-col p{
+    padding-left: 169px;
+}
+
+.features h2{
+    font-size: 50px;
+    font-weight: 900;
+    margin-bottom: 15px;
+}
+.features p{
+    
+    font-size: 24px;
+    font-weight: 400;
+    margin-right: 130px;
+}
+.img-col img{
+    
+    z-index: 10;
+  position: relative;
+}
+.video1{
+    max-width: 90px;
+    position: relative;
+    max-width: 207px;
+    position: relative;
+    bottom: 308px;
+    left: 181px;
+
+
+}
+.video1 div{
+    z-index: -1;
+    position: relative;
+}
+.video2{
+    max-width: 207px;
+    position: relative;
+    bottom: 342px;
+    left: 181px;
+}
+.video2 div{
+    z-index: -1;
+  position: relative;
+  left: 17%;
+  
+  bottom: 18%;
+
+} 
+.img-col video{
+    position: absolute;
+    top: 0;
+}
+.img2{
+    position: relative;
+    display: flex;
+    left: 164px;
+}
+.img4{
+    position: relative;
+    display: flex;
+    left: 164px;
+}
+.rectangle{
+    padding: 0.5rem 0.75rem;
+    width: 24%;
+    background-color: black;
+    display: flex;
+    border-color: gray;
+    height: 105px;
+    overflow: hidden;
+    position: absolute;
+    z-index: 10;
+    left: 23%;
+    border: 3px solid rgba(128,128,128,0.7);
+    bottom: -179%;
+    border-radius: 0.9rem;
+  
+}
+.img_st{
+    display: flex;
+  height: 93px;
+  position: absolute;
+  left: 18px;
+  top: 10px;
+}
+.text_st h2{
+    display: flex;
+    position: absolute;
+    font-size: 16px;
+    left: 122px;
+    top: 28%;
+   
+  }
+
+.text_st p{
+    display: flex;
+  position: absolute;
+  font-size: 16px;
+  left: 122px;
+  top: 48%;
+  color: rgb(12, 117, 255);
+
+}
+.loading{
+    display: flex;
+  align-items: center;
+  position: relative;
+  left: 80%;
+  height: 57%;
+  top: 20%;
+}
+
+/*--------------faq-------------*/
+.Seperation2{
+    height: 65px;
+    margin-left: 50px;
+}
+.faq h2{
+    text-align: center;
+    font-size: 60px;
+    margin-top: 10px;
+    
+}
+.faqbox:hover{
+    background-color: rgb(61, 61, 61);
+}
+.faqbox{
+    transition: all 0.25s ease-out;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    background-color: rgb(42, 42, 42);
+    padding: 2.5rem;
+    justify-content: space-between;
+    margin: 10px;
+    cursor: pointer;
+    font-weight: 200;
+    font-size: 30px;
+    max-width: 71vw;
+    margin:auto;
+    margin-bottom: 10px;
+}
+.email2{
+    align-items: center;
+    margin-left: 184px;
+}
+.box2{
+    font-size: 24px;
+    font-weight: 100;
+    text-align: center;
+    margin-bottom: 25px;
+}
+footer{
+    color: white;
+    max-width: 60vw;
+    margin:auto;
+    font-size: 14px;
+    
+    
+}
+footer span{
+    margin: 2px 0vw;
+    
+    
+}
+.footer{
+    display: grid;
+    grid-template-columns: 4fr 4fr 4fr 4fr;
+    color: white;
+    
+
+}
+.footer a{
+    font-size: 16px;
+    color: white;
+    margin: 20px;
+   
+  
+  margin-bottom: 5px;
+}
+.footer-items{
+    display: flex;
+    flex-direction:column ;
+    color: white;
+    gap: 23px;
+   
+}
+.btn2{
+   display: flex;
+    margin: 2px 0vw;
+    max-width: 46vw;
+    text-align: center;
+    justify-content: center;
+    position: relative;
+    padding: 8px 40px;
+    text-align: left;
+    background-color: rgba(23,23,23,0.5);
+    color: white;
+    border-radius: 4px;
+  }
+  .last-text{
+    display: flex;
+    font-size: 14px;
+    max-width: 46vw;
+  text-align: center;
+  justify-content: center;
+    
+  }
+  .last-button{
+    max-width: 58vw;
+    height: 85px;
+  }
+
+
+
